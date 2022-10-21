@@ -1,0 +1,84 @@
+.skills {
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.skills:before {
+    content: '';
+    background: #091826;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.skills .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.skills .content p:first-child {
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.skills .content p:nth-child(2) {
+    font-size: 1.9rem;
+}
+
+.skills .content p:nth-child(3) {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.skills .content p:nth-child(4) {
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.svg {
+    padding: 5px;
+}
+
+.skills .button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+}
+
+.skills .button:hover {
+    background-color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
+}
+
+@media screen and (max-width:940px) {
+    .skills .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .skills .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
