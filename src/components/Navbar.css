@@ -29,6 +29,10 @@
     height: auto;
 }
 
+.header .navbar img:hover {
+    cursor: pointer;
+}
+
 .header .nav-menu {
     display: flex;
 }
@@ -39,6 +43,7 @@
 }
 
 .header .nav-item a:hover {
+    cursor: pointer;
     padding-bottom: 12px;
     border-bottom: 3px solid var(--secondary-color);
 }
