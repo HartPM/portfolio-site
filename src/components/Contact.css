@@ -31,14 +31,14 @@
     font-size: 1.8rem;
 }
 
-form {
+.contact form {
     flex-direction: column;
     gap: 1.2rem;
     background: #091826;
     width: 100%;
 }
 
-input, textarea {
+.contact input, textarea {
     width: 100%;
     padding: 1.2rem;
     margin-top: .5rem;
