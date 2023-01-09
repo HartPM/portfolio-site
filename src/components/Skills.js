@@ -12,7 +12,12 @@ import {
     Css3OriginalIcon,
     TypescriptOriginalIcon,
     NestjsPlainIcon,
-    RaspberrypiLineIcon
+    RaspberrypiLineIcon,
+    DockerOriginalIcon,
+    MaterialuiOriginalIcon,
+    DjangoOriginalIcon,
+    GraphqlPlainWordmarkIcon,
+    SwiftOriginalIcon
 } from 'react-devicons';
 import './Skills.css'
 
@@ -24,7 +29,9 @@ const Skills = () => {
                 <br />
                 <div>
                     <JavascriptOriginalIcon className='svg' size="100"/>
+                    <TypescriptOriginalIcon className='svg' size="100"/>
                     <ReactOriginalIcon className='svg' size="100"/>
+                    <MaterialuiOriginalIcon className='svg' size="100"/>
                     <RubyOriginalIcon className='svg' size="100"/>
                     <RailsOriginalWordmarkIcon className='svg' size="100"/>
                     <PythonOriginalIcon className='svg' size="100"/>
@@ -39,8 +46,11 @@ const Skills = () => {
                 <h1>Currently Learning</h1>
                 <br />
                 <div className='svg'>
-                    <TypescriptOriginalIcon className='svg' size="100"/>
-                    <NestjsPlainIcon className='svg' size="100"/>
+                    <DockerOriginalIcon className='svg' size="100"/>
+                    <NestjsPlainIcon className='svg' size="100"/>      
+                    <SwiftOriginalIcon className='svg' size="100"/>              
+                    <DjangoOriginalIcon className='svg' size="100"/>
+                    <GraphqlPlainWordmarkIcon className='svg' size="100"/>
                     <RaspberrypiLineIcon className='svg' size="100"/>
                 </div>
                 <br />
