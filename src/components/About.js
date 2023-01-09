@@ -12,8 +12,7 @@ const About = () => {
                 <div className='col-2'>
                     <h2>Patrick Hart</h2>
                     <span className='line'></span>
-                    <p>Full-Stack Software Engineer</p>
-                    <p>Building React + Ruby on Rails applications</p>
+                    <p>Full Stack Software Engineer</p>
                     <a href='https://www.linkedin.com/in/patrick-hart-m/'>
                         <button className='button'>Connect on Linkedin</button>
                     </a>
